@@ -1,8 +1,8 @@
 # Hi, I'm Ethan 👋
 
 ### 📊 GitHub Stats
-![Ethan's GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=heoethan&show_icons=true&theme=radial)
-![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=heoethan&layout=compact&theme=radial)
+![Ethan's GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heoethan&theme=radial)
+![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heoethan&theme=radial)
 
 ---
 
