@@ -1,0 +1,22 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    - cron: '0 0 * * *' # 매일 정기 실행
+  workflow_dispatch: # 수동 실행 지원
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pull in posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # 사용 중인 블로그의 RSS 주소를 입력하세요
+          feed_list: "https://velog.io/rss/@본인아이디"
+          max_post_count: 5
